@@ -22,6 +22,26 @@
 | **Database** | **SQLite** | Database embedded relazionale e leggero per la memorizzazione di artisti, album, tracce e playlist. |
 | **Storage** | **File System Locale** | Organizzazione gerarchica delle cartelle musicali su disco (es. `/musica/Artista/Album/Traccia.flac`). |
 
+#### Configurazione Sping Boot
+* **Setup:** `Java 21` | `Maven` | `Spring Boot 4.1.1` | `Jar` | `YAML`
+* **Base Package:** `com.subsound.server`
+
+**Dipendenze Progetto:**
+- [x] **Spring Web:** Framework MVC per API REST, con Apache Tomcat integrato.
+- [x] **Lombok:** Libreria per la riduzione del codice boilerplate.
+- [ ] **SQLite:** Database relazionale embedded.
+- [ ] **FLAC Tagging (`jaudiotagger`):** Parsing metadati audio.
+- ... 
+
+> **Aggiungere dipendenze successive:**  
+> Per integrare nuove librerie in seguito, inserisci il relativo blocco all'interno della sezione `<dependencies>` del file `pom.xml`:
+> ```xml
+> <dependency>
+>   <groupId>org.xerial</groupId>
+>   <artifactId>sqlite-jdbc</artifactId>
+> </dependency>
+> ```
+
 ---
 
 ### Valutazione Back-End: Java (Spring Boot) vs Go -> VINCE JAVA
