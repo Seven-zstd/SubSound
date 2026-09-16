@@ -3,9 +3,8 @@
 ## Tech Stack & Architettura
 
 ### Badges Tecnici
-![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
+![Java 21](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
 ![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=spring-boot&logoColor=white)
-![Go](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 ![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
 ![SQLite](https://img.shields.io/badge/SQLite-07405E?style=for-the-badge&logo=sqlite&logoColor=white)
@@ -19,13 +18,13 @@
 | Layer | Tecnologia | Descrizione & Motivazione |
 | :--- | :--- | :--- |
 | **Front-End** | **JavaScript -> React** | Single Page Web App che sfrutta l'API HTML5 `<audio>` per lo streaming nativo di file FLAC. |
-| **Back-End** | **Java (Spring Boot) / Go** | REST API compatibile con le specifiche dell'API Subsonic. Gestisce indicizzazione, metadati e HTTP Audio Streaming. |
+| **Back-End** | **Java (Spring Boot)** | REST API compatibile con le specifiche dell'API Subsonic. Gestisce indicizzazione, metadati e HTTP Audio Streaming. |
 | **Database** | **SQLite** | Database embedded relazionale e leggero per la memorizzazione di artisti, album, tracce e playlist. |
 | **Storage** | **File System Locale** | Organizzazione gerarchica delle cartelle musicali su disco (es. `/musica/Artista/Album/Traccia.flac`). |
 
 ---
 
-### Valutazione Back-End: Java (Spring Boot) vs Go
+### Valutazione Back-End: Java (Spring Boot) vs Go -> VINCE JAVA
 
 | Caratteristica | Java (Spring Boot) | Go (Golang) |
 | :--- | :--- | :--- |
