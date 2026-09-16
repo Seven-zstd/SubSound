@@ -31,7 +31,7 @@
 - [x] **Lombok:** Libreria per la riduzione del codice boilerplate.
 - [ ] **SQLite:** Database relazionale embedded.
 - [ ] **FLAC Tagging (`jaudiotagger`):** Parsing metadati audio.
-- ... 
+- [ ] altro... 
 
 > **Aggiungere dipendenze successive:**  
 > Per integrare nuove librerie in seguito, inserisci il relativo blocco all'interno della sezione `<dependencies>` del file `pom.xml`:
