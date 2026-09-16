@@ -12,8 +12,9 @@ Un server musicale self-hosted, leggero e compatibile con le specifiche **Subson
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 ![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
 ![SQLite](https://img.shields.io/badge/SQLite-07405E?style=for-the-badge&logo=sqlite&logoColor=white)
-![FLAC](https://img.shields.io/badge/Audio-FLAC-0055FF?style=for-the-badge)
-![Subsonic API](https://img.shields.io/badge/API-Subsonic-FF8800?style=for-the-badge)
+![Audio Formats](https://img.shields.io/badge/Audio-Lossless_%28FLAC/WAV%29_&_Standard_%28MP3/OGG%29-0055FF?style=for-the-badge) 
+![API](https://img.shields.io/badge/API-Subsonic_Compatible-FF8800?style=for-the-badge)
+
 
 * * *
 
