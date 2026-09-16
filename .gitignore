@@ -1,0 +1,14 @@
+#maven
+target/
+
+#ide: vscode-vscodium, intellij
+.vscode/
+.idea/
+*.iml
+*.iws
+*.ipr
+
+#altro
+*.log
+.DS_Store
+Thumbs.db
